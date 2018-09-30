@@ -1,4 +1,4 @@
-
+@all
 Feature: main page
 
   Background:

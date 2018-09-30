@@ -149,8 +149,10 @@ public class MainPage extends Page {
     public void CheckTextOfEmail(){TextOfEmail.getText();
     Assert.assertEquals(TextOfEmail,TextOfEmail.getText());
     }
-    public void SearchButtonIsDisplayed (){SearchButton.getText();}
-
+    public void SearchButtonIsDisplayed () {
+        SearchButton.isEnabled();
+        //Assert.assertEquals("Знайти", SearchButton.getText());
+    }
 
 
 
