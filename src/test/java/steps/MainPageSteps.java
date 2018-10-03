@@ -78,6 +78,7 @@ public class MainPageSteps {
     @Then("^I close browser window$")
     public void iCloseBrowserWindow() throws Throwable {
         Thread.sleep(800);
+        Page.driver.close();
         Page.driver.quit();
 
 
